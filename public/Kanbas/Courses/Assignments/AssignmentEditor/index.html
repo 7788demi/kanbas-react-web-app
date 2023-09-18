@@ -1,0 +1,69 @@
+<label for="assignmentName">Assignment Name</label> <br />
+<input type="text" value="A1 - HTML" id="assignmentName" placeholder="Assignment Name" />
+<h3>Description</h3>
+<textarea cols="50" rows="5">
+This is the first assignment to build Kanbas
+</textarea><br />
+<br />
+
+<h3>Points</h3>
+<input type="number" value="100" max="100" min="0" step="1" /><br>
+
+<h3>Assignment Group</h3>
+<select id="assignmentGroup">
+  <option>ASSIGEMENTS</option>
+</select><br>
+
+<h3>Display Grade as</h3>
+<select id="displayGrade">
+  <option>Percentage</option>
+</select><br>
+
+<h3>Submission Type</h3>
+<select id="submissionType">
+  <option>Online</option>
+</select><br>
+
+<h3>Online Entry Type</h3>
+<input type="checkbox" id="textEntry" />
+<label for="textEntry">Text Entry</label><br />
+<input type="checkbox" checked /> Website URL <br />
+<label> <input type="checkbox" /> Media Recordings </label> <br />
+<input type="checkbox" /> Student Annotation<br />
+<input type="checkbox" /> File Uploads<br />
+
+<h3>Submission Attempts</h3>
+<select id="submissionAttempts">
+  <option>Unlimited</option>
+</select><br>
+
+<h3>Plagiarism Review</h3>
+<select id="plagiarismReview">
+  <option>None</option>
+</select><br>
+
+<h3>Group Assignment</h3>
+<input type="checkbox" /> This is a group assignment <br />
+
+<h3>Peer Reviews</h3>
+<input type="checkbox" /> Require Peer Reviews <br />
+
+<h3>Assign</h3>
+<h4>Assign to</h4>
+<input type="text" value="Everyone" id="assignTo">
+
+<h3>Due Date</h3>
+<input type="date" value="2020-09-16" min="2020-09-04" max="2020-09-23" />
+
+<h3>Avilable from</h3>
+<input type="date" value="2020-09-16" min="2020-09-04" max="2020-09-23" />
+
+<h3>Until</h3>
+<input type="date" value="2020-09-16" min="2020-09-04" max="2020-09-23" />
+<hr>
+
+<input type="checkbox" /> Notify users that this content has changed
+<form action="/Kanbas/Courses/Assignments/screen.html">
+  <button>Cancel</button>
+  <button>Save</button>
+</form>

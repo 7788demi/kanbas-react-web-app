@@ -1,0 +1,90 @@
+function Grades() {
+  return `<td valign="top">
+  <select>
+    <option>Gradebook</option>
+  </select>
+  <button>Import</button>
+  <select>
+    <option>Export</option>
+    <option>UnPublish</option>
+  </select>
+  <button>Configure</button>
+
+  <table width="100%">
+    <tbody>
+      <tr>
+        <td>
+          Student Names<br />
+          <input title="Type the name of the student to search for" placeholder="Search Students" />
+        </td>
+        <td>
+          Assignment Names<br />
+          <input placeholder="Search Assignments" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button>Apply Filters</button>
+
+  <table border="1" width="100%">
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>A1 - Setup</th>
+        <th>A2 - HTML</th>
+        <th>A3 - CSS</th>
+        <th>A4 - Bootstrap</th>
+        <th>A5 - JavaScript</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alice Ace</td>
+        <td align="center">90%</td>
+        <td align="center">96%</td>
+        <td align="center">98%</td>
+        <td align="center">95%</td>
+        <td align="center">98%</td>
+      </tr>
+      <tr>
+        <td>Bob Best</td>
+        <td align="center">88%</td>
+        <td align="center">92%</td>
+        <td align="center">90%</td>
+        <td align="center">85%</td>
+        <td align="center">95%</td>
+      </tr>
+      <tr>
+        <td>Charlie Charming</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+      </tr>
+      <tr>
+        <td>David Doe</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+      </tr>
+      <tr>
+        <td>Emily Everyday</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+        <td align="center">100%</td>
+      </tr>
+    </tbody>
+  </table>
+</td>
+</tr>
+</table>
+`;
+}
+
+export default Grades;
